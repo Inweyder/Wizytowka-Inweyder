@@ -3,7 +3,6 @@ body {
   background-size: 375vh;
   background-attachment: fixed;
   font-family: "Segoe UI", Arial, sans-serif;
-  overflow: inherit;
 }
 
 html, body {
@@ -15,15 +14,18 @@ html, body {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 header {
   height: 8vh;
   max-height: 10%;
   width: 100%;
-  background-color: #08091c;
+  transition: 0.2s;
   position: fixed;
   left: 0px;
   top: 0px;
-  box-shadow: 0px 0px 25px #08091c;
   z-index: 3;
 }
 header .header-menu {
@@ -104,7 +106,7 @@ header .header-logo:hover {
 }
 header h1 {
   margin: 1.4vh;
-  width: 20%;
+  width: 15%;
   font-size: 3vh;
 }
 
@@ -166,7 +168,7 @@ footer .footer-text {
 #introduction-page {
   width: 100%;
   height: 105vh;
-  background-color: white;
+  background-color: #08091c;
   color: #08091c;
 }
 #introduction-page .introduction-page__box, #introduction-page .introduction-page__box--off {
@@ -241,7 +243,7 @@ footer .footer-text {
 }
 .intro-animation .intro-animation__text {
   color: white;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   text-align: center;
   font-family: "Heebo", sans-serif;
 }

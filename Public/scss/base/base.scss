@@ -6,7 +6,6 @@ body{
   background-size: 375vh;
   background-attachment: fixed;
   font-family: "Segoe UI",Arial,sans-serif;
-  overflow:inherit;
 }
 html, body{
   padding: 0;
@@ -18,4 +17,7 @@ html, body{
 $main-color: #08091c;
 $second-color: white;
 
+::-webkit-scrollbar{
+  display: none;
+}
 

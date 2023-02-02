@@ -167,9 +167,9 @@ footer .footer-text {
 
 #introduction-page {
   width: 100%;
-  height: 105vh;
+  height: 70vh;
   background-color: #08091c;
-  color: #08091c;
+  color: white;
 }
 #introduction-page .introduction-page__box, #introduction-page .introduction-page__box--off {
   padding-top: 15vh;
@@ -183,7 +183,7 @@ footer .footer-text {
 #introduction-page .introduction-page__box .introduction-page__line, #introduction-page .introduction-page__box--off .introduction-page__line {
   width: 20%;
   height: 10px;
-  background-color: #08091c;
+  background-color: white;
   margin-left: 40%;
   margin-right: 40%;
 }
@@ -194,32 +194,6 @@ footer .footer-text {
 }
 #introduction-page .introduction-page__box p, #introduction-page .introduction-page__box--off p {
   font-size: 2.5vh;
-}
-#introduction-page .introduction-page__box .introduction-page__list, #introduction-page .introduction-page__box--off .introduction-page__list {
-  margin-top: 14vh;
-  list-style: none;
-  display: flex;
-}
-#introduction-page .introduction-page__box .introduction-page__list .introduction-page__btn, #introduction-page .introduction-page__box--off .introduction-page__list .introduction-page__btn {
-  margin-right: auto;
-  margin-left: auto;
-  transition: 0.75s;
-  width: 27vh;
-  background-color: #08091c;
-  height: 7vh;
-  padding-top: 4%;
-}
-#introduction-page .introduction-page__box .introduction-page__list .introduction-page__btn:hover, #introduction-page .introduction-page__box--off .introduction-page__list .introduction-page__btn:hover {
-  transform: translateY(-15%);
-  box-shadow: 1.2vh 1.2vh 2.5vh black;
-  transition: 0.6s;
-}
-#introduction-page .introduction-page__box .introduction-page__list a, #introduction-page .introduction-page__box--off .introduction-page__list a {
-  text-decoration: none;
-  color: white;
-  font-size: 2.5vh;
-  background-color: #08091c;
-  padding: 3vh 3vh;
 }
 #introduction-page .introduction-page__box {
   opacity: 1;
@@ -265,4 +239,9 @@ footer .footer-text {
   left: 0;
   z-index: 5;
   transform: translateY(100%);
+}
+
+#programming-languages {
+  height: 70vh;
+  width: 100%;
 }

@@ -1,3 +1,4 @@
+
 // Introduction Page Animation
 
 let box = document.querySelector("#introduction-page");
@@ -13,7 +14,6 @@ function changeClass() {
     clearInterval(interval);
 
 }
-
 
 
 

@@ -1,6 +1,7 @@
 #programming-languages{
     height: 105vh;
     width: 100%;
+    margin-bottom: 10vh;
     .programming-languages, .programming-languages--off{
         padding-top: 15vh;
         text-align: center;
@@ -48,9 +49,35 @@
                     }
                 }
                 &--back{
-                    background-color: $main-color;
-                    box-shadow: inset 0px 0px 100px $second-color;
+                    background-color: $second-color;
                     transform: rotateY(180deg);
+                    h3{
+                        color: $second-color;
+                        margin: 0;
+                        font-size: 4vh;
+                        margin-bottom: 1vh;
+                    }
+                    .card__header{
+                        background-color: $main-color;
+                        padding-top: 5vh;
+                        img{
+                            width: 10vh;
+                            height: 10vh;
+                            border-radius: 100%;
+                            border: 4px solid $second-color;
+                            background-color: white;
+                        }
+                    }
+                    .card__body{
+                        p{
+                        text-align: center;
+                        padding-left: 10%;
+                        padding-right: 10%;
+                        color: $main-color;
+                        font-size: 2vh;
+                        }
+                    }
+
                 }
         }
         }

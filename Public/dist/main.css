@@ -244,6 +244,7 @@ footer .footer-text {
 #programming-languages {
   height: 105vh;
   width: 100%;
+  margin-bottom: 10vh;
 }
 #programming-languages .programming-languages, #programming-languages .programming-languages--off {
   padding-top: 15vh;
@@ -295,9 +296,32 @@ footer .footer-text {
   transition: 0.4s;
 }
 #programming-languages .programming-languages__cards-box-1--back, #programming-languages .programming-languages__cards-box-2--back, #programming-languages .programming-languages__cards-box-3--back, #programming-languages .programming-languages--off__cards-box-1--back, #programming-languages .programming-languages--off__cards-box-2--back, #programming-languages .programming-languages--off__cards-box-3--back {
-  background-color: #08091c;
-  box-shadow: inset 0px 0px 100px white;
+  background-color: white;
   transform: rotateY(180deg);
+}
+#programming-languages .programming-languages__cards-box-1--back h3, #programming-languages .programming-languages__cards-box-2--back h3, #programming-languages .programming-languages__cards-box-3--back h3, #programming-languages .programming-languages--off__cards-box-1--back h3, #programming-languages .programming-languages--off__cards-box-2--back h3, #programming-languages .programming-languages--off__cards-box-3--back h3 {
+  color: white;
+  margin: 0;
+  font-size: 4vh;
+  margin-bottom: 1vh;
+}
+#programming-languages .programming-languages__cards-box-1--back .card__header, #programming-languages .programming-languages__cards-box-2--back .card__header, #programming-languages .programming-languages__cards-box-3--back .card__header, #programming-languages .programming-languages--off__cards-box-1--back .card__header, #programming-languages .programming-languages--off__cards-box-2--back .card__header, #programming-languages .programming-languages--off__cards-box-3--back .card__header {
+  background-color: #08091c;
+  padding-top: 5vh;
+}
+#programming-languages .programming-languages__cards-box-1--back .card__header img, #programming-languages .programming-languages__cards-box-2--back .card__header img, #programming-languages .programming-languages__cards-box-3--back .card__header img, #programming-languages .programming-languages--off__cards-box-1--back .card__header img, #programming-languages .programming-languages--off__cards-box-2--back .card__header img, #programming-languages .programming-languages--off__cards-box-3--back .card__header img {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 100%;
+  border: 4px solid white;
+  background-color: white;
+}
+#programming-languages .programming-languages__cards-box-1--back .card__body p, #programming-languages .programming-languages__cards-box-2--back .card__body p, #programming-languages .programming-languages__cards-box-3--back .card__body p, #programming-languages .programming-languages--off__cards-box-1--back .card__body p, #programming-languages .programming-languages--off__cards-box-2--back .card__body p, #programming-languages .programming-languages--off__cards-box-3--back .card__body p {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #08091c;
+  font-size: 2vh;
 }
 #programming-languages .programming-languages__line, #programming-languages .programming-languages--off__line {
   width: 15%;
@@ -321,4 +345,47 @@ footer .footer-text {
 }
 #programming-languages .programming-languages {
   opacity: 1;
+}
+
+#ambitions-page {
+  width: 100%;
+  height: 70vh;
+  background-color: #08091c;
+  color: white;
+}
+#ambitions-page .ambitions-page__box, #ambitions-page .ambitions-page__box--off {
+  padding-top: 15vh;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  position: absolute;
+  transition: 1s;
+}
+#ambitions-page .ambitions-page__box .ambitions-page__line, #ambitions-page .ambitions-page__box--off .ambitions-page__line {
+  width: 20%;
+  height: 10px;
+  background-color: white;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+#ambitions-page .ambitions-page__box h1, #ambitions-page .ambitions-page__box--off h1 {
+  font-size: 5.8vh;
+  width: 70%;
+  margin-left: 15%;
+}
+#ambitions-page .ambitions-page__box p, #ambitions-page .ambitions-page__box--off p {
+  font-size: 2.5vh;
+}
+#ambitions-page .ambitions-page__box {
+  opacity: 1;
+}
+#ambitions-page .ambitions-page__box--off {
+  transform: translateY(20%);
+  opacity: 0;
+}
+
+#contact-page {
+  width: 100%;
+  height: 100vh;
 }
